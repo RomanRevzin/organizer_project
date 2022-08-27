@@ -1,0 +1,173 @@
+Restore Archived Project report for stopper
+Sat Jul 30 20:36:09 2022
+Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sat Jul 30 20:36:09 2022 ;
+; Revision Name                   ; stopper                               ;
+; Top-level Entity Name           ; periphery                             ;
+; Family                          ; Cyclone III                           ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Warning (13177): Your design targets the device family "Cyclone III". The specified family is not a valid device family, is not installed, or is not supported in this version of the Quartus II software. If you restored a project from an archived version, your project was successfully restored, but you still must specify or install a supported device family.
+Info (13198): Your project was successfully restored, but the device information in the Flow Summary report cannot be updated until the design targets a supported device family.
+Info: Successfully restored 'C:/Users/peppa/Desktop/ruppin/digital curcuits final/project/organizer.qar' into the 'organizer/' directory
+Info: Generated report 'stopper.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/hackaton/quartus 14.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4451 megabytes
+    Info: Processing ended: Sat Jul 30 20:36:09 2022
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------+
+; Files Restored          ;
++-------------------------+
+; File Name               ;
++-------------------------+
+; BCD_100.bdf             ;
+; BCD_24.bdf              ;
+; BCD_60.bdf              ;
+; PWMgen.v                ;
+; assignment_defaults.qdf ;
+; bin_to_hex_decoder.v    ;
+; bit_to_vec.bdf          ;
+; centgen.bdf             ;
+; db/stopper.sim.cvwf     ;
+; de0_default_pins.tcl    ;
+; flicker.v               ;
+; flicker.vwf             ;
+; flicker_sel.bdf         ;
+; gozer_up.bdf            ;
+; gozer_up.vwf            ;
+; hexsse.vhd              ;
+; load_sel.bdf            ;
+; lpm_add_sub0.bsf        ;
+; lpm_add_sub0.cmp        ;
+; lpm_add_sub0.qip        ;
+; lpm_add_sub0.vhd        ;
+; lpm_add_sub1.bsf        ;
+; lpm_add_sub1.cmp        ;
+; lpm_add_sub1.qip        ;
+; lpm_add_sub1.vhd        ;
+; lpm_constant0.bsf       ;
+; lpm_constant0.cmp       ;
+; lpm_constant0.qip       ;
+; lpm_constant0.vhd       ;
+; lpm_constant1.bsf       ;
+; lpm_constant1.cmp       ;
+; lpm_constant1.qip       ;
+; lpm_constant1.vhd       ;
+; lpm_constant2.bsf       ;
+; lpm_constant2.cmp       ;
+; lpm_constant2.qip       ;
+; lpm_constant2.vhd       ;
+; lpm_counter0.bsf        ;
+; lpm_counter0.cmp        ;
+; lpm_counter0.qip        ;
+; lpm_counter0.vhd        ;
+; lpm_counter1.bsf        ;
+; lpm_counter1.cmp        ;
+; lpm_counter1.qip        ;
+; lpm_counter1.vhd        ;
+; lpm_counter4.bsf        ;
+; lpm_counter4.cmp        ;
+; lpm_counter4.qip        ;
+; lpm_counter4.vhd        ;
+; lpm_counter5.bsf        ;
+; lpm_counter5.cmp        ;
+; lpm_counter5.qip        ;
+; lpm_counter5.vhd        ;
+; lpm_counter6.bsf        ;
+; lpm_counter6.cmp        ;
+; lpm_counter6.qip        ;
+; lpm_counter6.vhd        ;
+; lpm_decode0.bsf         ;
+; lpm_decode0.cmp         ;
+; lpm_decode0.qip         ;
+; lpm_decode0.vhd         ;
+; lpm_divide0.bsf         ;
+; lpm_divide0.cmp         ;
+; lpm_divide0.qip         ;
+; lpm_divide0.vhd         ;
+; lpm_divide1.bsf         ;
+; lpm_divide1.cmp         ;
+; lpm_divide1.qip         ;
+; lpm_divide1.vhd         ;
+; lpm_mux0.bsf            ;
+; lpm_mux0.cmp            ;
+; lpm_mux0.qip            ;
+; lpm_mux0.vhd            ;
+; lpm_mux1.bsf            ;
+; lpm_mux1.cmp            ;
+; lpm_mux1.qip            ;
+; lpm_mux1.vhd            ;
+; lpm_mux2.bsf            ;
+; lpm_mux2.cmp            ;
+; lpm_mux2.qip            ;
+; lpm_mux2.vhd            ;
+; periphery.bdf           ;
+; periphery.vwf           ;
+; secgen.bdf              ;
+; secgen.vwf              ;
+; stopper.bdf             ;
+; stopper.dpf             ;
+; stopper.qpf             ;
+; stopper.qsf             ;
+; stopper.vwf             ;
+; switch.vhd              ;
+; switch_test.bdf         ;
+; test.bdf                ;
+; time_selector.bdf       ;
+; zero-comp.bdf           ;
+; zero_comp.v             ;
+; zero_comp.vwf           ;
++-------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
